@@ -14,10 +14,11 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
-        // justifyContent: 'center',
-        // alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#dcdedf',
         // fontSize: 40,
         // color: '#010101',
       }}
